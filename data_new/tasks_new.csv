@@ -1,0 +1,99 @@
+taskid,Activity,Type,Duration (minutes),Intensity
+0,Walking 1000 steps,Physical,10,Low
+1,Sleep 8 hours,Rest,480,Low
+2,Jogging for 30 minutes,Cardio,30,Medium
+3,Yoga for 1 hour,Flexibility,60,Low
+4,Cycling for 45 minutes,Cardio,45,Medium
+5,Swimming for 1 hour,Cardio,60,High
+6,Meditation for 20 minutes,Mental,20,Low
+7,Strength training for 1 hour,Strength,60,High
+8,Dancing for 30 minutes,Cardio,30,Medium
+9,Hiking for 2 hours,Outdoor,120,Medium
+10,Playing basketball for 1 hour,Sports,60,High
+11,Playing soccer for 1.5 hours,Sports,90,High
+12,Rowing for 30 minutes,Cardio,30,High
+13,Pilates for 45 minutes,Flexibility,45,Low
+14,Rock climbing for 1 hour,Strength,60,High
+15,Running 5 kilometers,Cardio,30,High
+16,Tennis for 1 hour,Sports,60,High
+17,Golfing for 2 hours,Leisure,120,Low
+18,Playing badminton for 1 hour,Sports,60,Medium
+19,Boxing for 1 hour,Cardio,60,High
+20,Skipping rope for 15 minutes,Cardio,15,High
+21,Tai Chi for 1 hour,Flexibility,60,Low
+22,Horseback riding for 1 hour,Recreation,60,Low
+23,Snowboarding for 2 hours,Outdoor,120,Medium
+24,Skiing for 2 hours,Outdoor,120,Medium
+25,Surfing for 1 hour,Water,60,High
+26,Kayaking for 1 hour,Water,60,Medium
+27,Canoeing for 1 hour,Water,60,Medium
+28,Playing volleyball for 1 hour,Sports,60,Medium
+29,Zumba for 1 hour,Cardio,60,High
+30,CrossFit for 1 hour,Strength,60,High
+31,Aerobics for 1 hour,Cardio,60,Medium
+32,Spinning for 1 hour,Cardio,60,High
+33,Gardening for 1 hour,Leisure,60,Low
+34,House cleaning for 2 hours,Physical,120,Medium
+35,Walking the dog for 30 minutes,Physical,30,Low
+36,Playing with children for 1 hour,Social,60,Medium
+37,Climbing stairs for 15 minutes,Cardio,15,High
+38,Jumping jacks for 10 minutes,Cardio,10,High
+39,Biking to work for 30 minutes,Cardio,30,Medium
+40,Walking in the park for 1 hour,Leisure,60,Low
+41,Stretching for 30 minutes,Flexibility,30,Low
+42,Martial arts for 1 hour,Strength,60,High
+43,Playing hockey for 1 hour,Sports,60,High
+44,Skateboarding for 1 hour,Outdoor,60,Medium
+45,Ice skating for 1 hour,Outdoor,60,Medium
+46,Rollerblading for 1 hour,Outdoor,60,Medium
+47,Frisbee for 1 hour,Leisure,60,Low
+48,Jumping rope for 10 minutes,Cardio,10,High
+49,Walking uphill for 30 minutes,Cardio,30,High
+50,Walking downhill for 30 minutes,Leisure,30,Low
+51,Jogging on a treadmill for 30 minutes,Cardio,30,Medium
+52,Elliptical trainer for 30 minutes,Cardio,30,Medium
+53,Climbing a mountain for 4 hours,Outdoor,240,High
+54,Fishing for 2 hours,Leisure,120,Low
+55,Playing baseball for 1 hour,Sports,60,Medium
+56,Playing rugby for 1 hour,Sports,60,High
+57,Rowing machine for 30 minutes,Cardio,30,High
+58,Water polo for 1 hour,Water,60,High
+59,Stand-up paddleboarding for 1 hour,Water,60,Medium
+60,Scuba diving for 1 hour,Water,60,Low
+61,Snorkeling for 1 hour,Water,60,Low
+62,Windsurfing for 1 hour,Water,60,High
+63,Kitesurfing for 1 hour,Water,60,High
+64,Paragliding for 1 hour,Air,60,Medium
+65,Skydiving for 1 hour,Air,60,High
+66,Bungee jumping for 1 hour,Air,60,High
+67,Caving for 2 hours,Adventure,120,Medium
+68,Sailing for 2 hours,Water,120,Low
+69,Stand-up desk for 8 hours,Leisure,480,Low
+70,Walking meeting for 1 hour,Social,60,Low
+71,Office workout for 15 minutes,Physical,15,Medium
+72,Gym workout for 1 hour,Physical,60,High
+73,Rowing on water for 1 hour,Water,60,High
+74,Playing squash for 1 hour,Sports,60,High
+75,Table tennis for 1 hour,Sports,60,Medium
+76,Foosball for 1 hour,Leisure,60,Low
+77,Dodgeball for 1 hour,Sports,60,High
+78,Ultimate frisbee for 1 hour,Sports,60,High
+79,Krav Maga for 1 hour,Strength,60,High
+80,Capoeira for 1 hour,Flexibility,60,High
+81,Judo for 1 hour,Strength,60,High
+82,Fencing for 1 hour,Sports,60,High
+83,Archery for 1 hour,Skill,60,Low
+84,Laser tag for 1 hour,Fun,60,Medium
+85,Paintball for 1 hour,Fun,60,High
+86,Laser shooting for 1 hour,Skill,60,Medium
+87,Virtual reality fitness for 1 hour,Fun,60,Medium
+88,Darts for 1 hour,Leisure,60,Low
+89,Bowling for 1 hour,Leisure,60,Low
+90,Mini-golf for 1 hour,Leisure,60,Low
+91,Croquet for 1 hour,Leisure,60,Low
+92,Bocce ball for 1 hour,Leisure,60,Low
+93,Shuffleboard for 1 hour,Leisure,60,Low
+94,Trampolining for 1 hour,Fun,60,Medium
+95,Parkour for 1 hour,Outdoor,60,High
+96,Slacklining for 1 hour,Balance,60,Medium
+97,Aerial yoga for 1 hour,Flexibility,60,Low
