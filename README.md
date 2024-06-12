@@ -3,7 +3,18 @@
 This repo shows the usage of an emsemble model (Gradient Boosting) for use in a recommendation engine.
 
 ## Setup
+### Install mtgbm
+1. `git clone https://github.com/antmachineintelligence/mtgbmcode.git`
+2. Since libomp is required for mtgbm to run. It's recommended to run the following commands to install it on Mac:
+``` bash
+wget https://raw.githubusercontent.com/Homebrew/homebrew-core/fb8323f2b170bd4ae97e1bac9bf3e2983af3fdb0/Formula/libomp.rb
+brew unlink libomp
+brew install libomp.rb
+```
+
+### Install other packages
 Run `pip install -r requirements.txt`
+
 
 
 ## Data Generation
@@ -34,4 +45,6 @@ Parameters for data generation
 
 
 ## Model
-To train the model and generate inference, run `TaskRecommender.ipynb`
+To train the single-task model and generate inference, run `TaskRecommender.ipynb`
+
+To train the multi-task model and generate inference, run `TaskRecommender_multi_task.ipynb`
