@@ -1,501 +1,101 @@
-userid,segment,motivation,age
-u-1,s1,m1,20
-u-2,s1,m1,20
-u-3,s1,m1,32
-u-4,s1,m2,32
-u-5,s2,m2,40
-u-6,s2,m2,40
-u-7,s2,m3,60
-u-8,s2,m3,60
-u-9,s3,m3,42
-u-10,s3,m4,42
-u-11,s3,m4,36
-u-12,s3,m4,36
-u-13,s4,m5,26
-u-14,s4,m5,26
-u-15,s4,m5,22
-u-16,s4,m6,22
-u-17,s5,m6,20
-u-18,s5,m6,20
-u-19,s5,m1,32
-u-20,s5,m1,32
-u-21,s6,m1,40
-u-22,s6,m2,40
-u-23,s6,m2,60
-u-24,s6,m2,60
-u-25,s7,m3,42
-u-26,s7,m3,42
-u-27,s7,m3,36
-u-28,s7,m4,36
-u-29,s8,m4,26
-u-30,s8,m4,26
-u-31,s8,m5,22
-u-32,s8,m5,22
-u-33,s9,m5,20
-u-34,s9,m6,20
-u-35,s9,m6,32
-u-36,s9,m6,32
-u-37,s1,m1,40
-u-38,s1,m1,40
-u-39,s1,m1,60
-u-40,s1,m2,60
-u-41,s2,m2,42
-u-42,s2,m2,42
-u-43,s2,m3,36
-u-44,s2,m3,36
-u-45,s3,m3,26
-u-46,s3,m4,26
-u-47,s3,m4,22
-u-48,s3,m4,22
-u-49,s4,m5,20
-u-50,s4,m5,20
-u-51,s4,m5,32
-u-52,s4,m6,32
-u-53,s5,m6,40
-u-54,s5,m6,40
-u-55,s5,m1,60
-u-56,s5,m1,60
-u-57,s6,m1,42
-u-58,s6,m2,42
-u-59,s6,m2,36
-u-60,s6,m2,36
-u-61,s7,m3,26
-u-62,s7,m3,26
-u-63,s7,m3,22
-u-64,s7,m4,22
-u-65,s8,m4,20
-u-66,s8,m4,20
-u-67,s8,m5,32
-u-68,s8,m5,32
-u-69,s9,m5,40
-u-70,s9,m6,40
-u-71,s9,m6,60
-u-72,s9,m6,60
-u-73,s1,m1,42
-u-74,s1,m1,42
-u-75,s1,m1,36
-u-76,s1,m2,36
-u-77,s2,m2,26
-u-78,s2,m2,26
-u-79,s2,m3,22
-u-80,s2,m3,22
-u-81,s3,m3,20
-u-82,s3,m4,20
-u-83,s3,m4,32
-u-84,s3,m4,32
-u-85,s4,m5,40
-u-86,s4,m5,40
-u-87,s4,m5,60
-u-88,s4,m6,60
-u-89,s5,m6,42
-u-90,s5,m6,42
-u-91,s5,m1,36
-u-92,s5,m1,36
-u-93,s6,m1,26
-u-94,s6,m2,26
-u-95,s6,m2,22
-u-96,s6,m2,22
-u-97,s7,m3,20
-u-98,s7,m3,20
-u-99,s7,m3,32
-u-100,s7,m4,32
-u-101,s8,m4,40
-u-102,s8,m4,40
-u-103,s8,m5,60
-u-104,s8,m5,60
-u-105,s9,m5,42
-u-106,s9,m6,42
-u-107,s9,m6,36
-u-108,s9,m6,36
-u-109,s1,m1,26
-u-110,s1,m1,26
-u-111,s1,m1,22
-u-112,s1,m2,22
-u-113,s2,m2,20
-u-114,s2,m2,20
-u-115,s2,m3,32
-u-116,s2,m3,32
-u-117,s3,m3,40
-u-118,s3,m4,40
-u-119,s3,m4,60
-u-120,s3,m4,60
-u-121,s4,m5,42
-u-122,s4,m5,42
-u-123,s4,m5,36
-u-124,s4,m6,36
-u-125,s5,m6,26
-u-126,s5,m6,26
-u-127,s5,m1,22
-u-128,s5,m1,22
-u-129,s6,m1,20
-u-130,s6,m2,20
-u-131,s6,m2,32
-u-132,s6,m2,32
-u-133,s7,m3,40
-u-134,s7,m3,40
-u-135,s7,m3,60
-u-136,s7,m4,60
-u-137,s8,m4,42
-u-138,s8,m4,42
-u-139,s8,m5,36
-u-140,s8,m5,36
-u-141,s9,m5,26
-u-142,s9,m6,26
-u-143,s9,m6,22
-u-144,s9,m6,22
-u-145,s1,m1,20
-u-146,s1,m1,20
-u-147,s1,m1,32
-u-148,s1,m2,32
-u-149,s2,m2,40
-u-150,s2,m2,40
-u-151,s2,m3,60
-u-152,s2,m3,60
-u-153,s3,m3,42
-u-154,s3,m4,42
-u-155,s3,m4,36
-u-156,s3,m4,36
-u-157,s4,m5,26
-u-158,s4,m5,26
-u-159,s4,m5,22
-u-160,s4,m6,22
-u-161,s5,m6,20
-u-162,s5,m6,20
-u-163,s5,m1,32
-u-164,s5,m1,32
-u-165,s6,m1,40
-u-166,s6,m2,40
-u-167,s6,m2,60
-u-168,s6,m2,60
-u-169,s7,m3,42
-u-170,s7,m3,42
-u-171,s7,m3,36
-u-172,s7,m4,36
-u-173,s8,m4,26
-u-174,s8,m4,26
-u-175,s8,m5,22
-u-176,s8,m5,22
-u-177,s9,m5,20
-u-178,s9,m6,20
-u-179,s9,m6,32
-u-180,s9,m6,32
-u-181,s1,m1,40
-u-182,s1,m1,40
-u-183,s1,m1,60
-u-184,s1,m2,60
-u-185,s2,m2,42
-u-186,s2,m2,42
-u-187,s2,m3,36
-u-188,s2,m3,36
-u-189,s3,m3,26
-u-190,s3,m4,26
-u-191,s3,m4,22
-u-192,s3,m4,22
-u-193,s4,m5,20
-u-194,s4,m5,20
-u-195,s4,m5,32
-u-196,s4,m6,32
-u-197,s5,m6,40
-u-198,s5,m6,40
-u-199,s5,m1,60
-u-200,s5,m1,60
-u-201,s6,m1,42
-u-202,s6,m2,42
-u-203,s6,m2,36
-u-204,s6,m2,36
-u-205,s7,m3,26
-u-206,s7,m3,26
-u-207,s7,m3,22
-u-208,s7,m4,22
-u-209,s8,m4,20
-u-210,s8,m4,20
-u-211,s8,m5,32
-u-212,s8,m5,32
-u-213,s9,m5,40
-u-214,s9,m6,40
-u-215,s9,m6,60
-u-216,s9,m6,60
-u-217,s1,m1,42
-u-218,s1,m1,42
-u-219,s1,m1,36
-u-220,s1,m2,36
-u-221,s2,m2,26
-u-222,s2,m2,26
-u-223,s2,m3,22
-u-224,s2,m3,22
-u-225,s3,m3,20
-u-226,s3,m4,20
-u-227,s3,m4,32
-u-228,s3,m4,32
-u-229,s4,m5,40
-u-230,s4,m5,40
-u-231,s4,m5,60
-u-232,s4,m6,60
-u-233,s5,m6,42
-u-234,s5,m6,42
-u-235,s5,m1,36
-u-236,s5,m1,36
-u-237,s6,m1,26
-u-238,s6,m2,26
-u-239,s6,m2,22
-u-240,s6,m2,22
-u-241,s7,m3,20
-u-242,s7,m3,20
-u-243,s7,m3,32
-u-244,s7,m4,32
-u-245,s8,m4,40
-u-246,s8,m4,40
-u-247,s8,m5,60
-u-248,s8,m5,60
-u-249,s9,m5,42
-u-250,s9,m6,42
-u-251,s9,m6,36
-u-252,s9,m6,36
-u-253,s1,m1,26
-u-254,s1,m1,26
-u-255,s1,m1,22
-u-256,s1,m2,22
-u-257,s2,m2,20
-u-258,s2,m2,20
-u-259,s2,m3,32
-u-260,s2,m3,32
-u-261,s3,m3,40
-u-262,s3,m4,40
-u-263,s3,m4,60
-u-264,s3,m4,60
-u-265,s4,m5,42
-u-266,s4,m5,42
-u-267,s4,m5,36
-u-268,s4,m6,36
-u-269,s5,m6,26
-u-270,s5,m6,26
-u-271,s5,m1,22
-u-272,s5,m1,22
-u-273,s6,m1,20
-u-274,s6,m2,20
-u-275,s6,m2,32
-u-276,s6,m2,32
-u-277,s7,m3,40
-u-278,s7,m3,40
-u-279,s7,m3,60
-u-280,s7,m4,60
-u-281,s8,m4,42
-u-282,s8,m4,42
-u-283,s8,m5,36
-u-284,s8,m5,36
-u-285,s9,m5,26
-u-286,s9,m6,26
-u-287,s9,m6,22
-u-288,s9,m6,22
-u-289,s1,m1,20
-u-290,s1,m1,20
-u-291,s1,m1,32
-u-292,s1,m2,32
-u-293,s2,m2,40
-u-294,s2,m2,40
-u-295,s2,m3,60
-u-296,s2,m3,60
-u-297,s3,m3,42
-u-298,s3,m4,42
-u-299,s3,m4,36
-u-300,s3,m4,36
-u-301,s4,m5,26
-u-302,s4,m5,26
-u-303,s4,m5,22
-u-304,s4,m6,22
-u-305,s5,m6,20
-u-306,s5,m6,20
-u-307,s5,m1,32
-u-308,s5,m1,32
-u-309,s6,m1,40
-u-310,s6,m2,40
-u-311,s6,m2,60
-u-312,s6,m2,60
-u-313,s7,m3,42
-u-314,s7,m3,42
-u-315,s7,m3,36
-u-316,s7,m4,36
-u-317,s8,m4,26
-u-318,s8,m4,26
-u-319,s8,m5,22
-u-320,s8,m5,22
-u-321,s9,m5,20
-u-322,s9,m6,20
-u-323,s9,m6,32
-u-324,s9,m6,32
-u-325,s1,m1,40
-u-326,s1,m1,40
-u-327,s1,m1,60
-u-328,s1,m2,60
-u-329,s2,m2,42
-u-330,s2,m2,42
-u-331,s2,m3,36
-u-332,s2,m3,36
-u-333,s3,m3,26
-u-334,s3,m4,26
-u-335,s3,m4,22
-u-336,s3,m4,22
-u-337,s4,m5,20
-u-338,s4,m5,20
-u-339,s4,m5,32
-u-340,s4,m6,32
-u-341,s5,m6,40
-u-342,s5,m6,40
-u-343,s5,m1,60
-u-344,s5,m1,60
-u-345,s6,m1,42
-u-346,s6,m2,42
-u-347,s6,m2,36
-u-348,s6,m2,36
-u-349,s7,m3,26
-u-350,s7,m3,26
-u-351,s7,m3,22
-u-352,s7,m4,22
-u-353,s8,m4,20
-u-354,s8,m4,20
-u-355,s8,m5,32
-u-356,s8,m5,32
-u-357,s9,m5,40
-u-358,s9,m6,40
-u-359,s9,m6,60
-u-360,s9,m6,60
-u-361,s1,m1,42
-u-362,s1,m1,42
-u-363,s1,m1,36
-u-364,s1,m2,36
-u-365,s2,m2,26
-u-366,s2,m2,26
-u-367,s2,m3,22
-u-368,s2,m3,22
-u-369,s3,m3,20
-u-370,s3,m4,20
-u-371,s3,m4,32
-u-372,s3,m4,32
-u-373,s4,m5,40
-u-374,s4,m5,40
-u-375,s4,m5,60
-u-376,s4,m6,60
-u-377,s5,m6,42
-u-378,s5,m6,42
-u-379,s5,m1,36
-u-380,s5,m1,36
-u-381,s6,m1,26
-u-382,s6,m2,26
-u-383,s6,m2,22
-u-384,s6,m2,22
-u-385,s7,m3,20
-u-386,s7,m3,20
-u-387,s7,m3,32
-u-388,s7,m4,32
-u-389,s8,m4,40
-u-390,s8,m4,40
-u-391,s8,m5,60
-u-392,s8,m5,60
-u-393,s9,m5,42
-u-394,s9,m6,42
-u-395,s9,m6,36
-u-396,s9,m6,36
-u-397,s1,m1,26
-u-398,s1,m1,26
-u-399,s1,m1,22
-u-400,s1,m2,22
-u-401,s2,m2,20
-u-402,s2,m2,20
-u-403,s2,m3,32
-u-404,s2,m3,32
-u-405,s3,m3,40
-u-406,s3,m4,40
-u-407,s3,m4,60
-u-408,s3,m4,60
-u-409,s4,m5,42
-u-410,s4,m5,42
-u-411,s4,m5,36
-u-412,s4,m6,36
-u-413,s5,m6,26
-u-414,s5,m6,26
-u-415,s5,m1,22
-u-416,s5,m1,22
-u-417,s6,m1,20
-u-418,s6,m2,20
-u-419,s6,m2,32
-u-420,s6,m2,32
-u-421,s7,m3,40
-u-422,s7,m3,40
-u-423,s7,m3,60
-u-424,s7,m4,60
-u-425,s8,m4,42
-u-426,s8,m4,42
-u-427,s8,m5,36
-u-428,s8,m5,36
-u-429,s9,m5,26
-u-430,s9,m6,26
-u-431,s9,m6,22
-u-432,s9,m6,22
-u-433,s1,m1,20
-u-434,s1,m1,20
-u-435,s1,m1,32
-u-436,s1,m2,32
-u-437,s2,m2,40
-u-438,s2,m2,40
-u-439,s2,m3,60
-u-440,s2,m3,60
-u-441,s3,m3,42
-u-442,s3,m4,42
-u-443,s3,m4,36
-u-444,s3,m4,36
-u-445,s4,m5,26
-u-446,s4,m5,26
-u-447,s4,m5,22
-u-448,s4,m6,22
-u-449,s5,m6,20
-u-450,s5,m6,20
-u-451,s5,m1,32
-u-452,s5,m1,32
-u-453,s6,m1,40
-u-454,s6,m2,40
-u-455,s6,m2,60
-u-456,s6,m2,60
-u-457,s7,m3,42
-u-458,s7,m3,42
-u-459,s7,m3,36
-u-460,s7,m4,36
-u-461,s8,m4,26
-u-462,s8,m4,26
-u-463,s8,m5,22
-u-464,s8,m5,22
-u-465,s9,m5,20
-u-466,s9,m6,20
-u-467,s9,m6,32
-u-468,s9,m6,32
-u-469,s1,m1,40
-u-470,s1,m1,40
-u-471,s1,m1,60
-u-472,s1,m2,60
-u-473,s2,m2,42
-u-474,s2,m2,42
-u-475,s2,m3,36
-u-476,s2,m3,36
-u-477,s3,m3,26
-u-478,s3,m4,26
-u-479,s3,m4,22
-u-480,s3,m4,22
-u-481,s4,m5,20
-u-482,s4,m5,20
-u-483,s4,m5,32
-u-484,s4,m6,32
-u-485,s5,m6,40
-u-486,s5,m6,40
-u-487,s5,m1,60
-u-488,s5,m1,60
-u-489,s6,m1,42
-u-490,s6,m2,42
-u-491,s6,m2,36
-u-492,s6,m2,36
-u-493,s7,m3,26
-u-494,s7,m3,26
-u-495,s7,m3,22
-u-496,s7,m4,22
-u-497,s8,m4,20
-u-498,s8,m4,20
-u-499,s8,m5,32
-u-500,s8,m5,32
+userid,Name,Age,Motivation,Segment
+0,Karen Jones,28,Feeling Healthy,1
+1,Lin Wei,43,Maintain Independence,3
+2,Peter Tan,27,Manage Stress,2
+3,Nisha Nair,28,Maintain Independence,3
+4,Elizabeth Tan,46,Maintain Independence,1
+5,John Pereira,21,Manage Stress,2
+6,Azman bin Salleh,58,Maintain Independence,3
+7,Liyana binti Razak,39,Feeling Healthy,2
+8,Firdaus bin Mohamad,54,Manage Stress,1
+9,Suresh Menon,44,Manage Stress,3
+10,Farah binti Kamal,51,Maintain Independence,1
+11,Liu Li,39,Manage Stress,2
+12,Yeoh Mei,29,Manage Stress,3
+13,Rajesh Kumar,42,Feeling Healthy,2
+14,Hadi bin Musa,25,Maintain Independence,1
+15,Goh Siew,33,Maintain Independence,3
+16,Goh Wen,52,Manage Stress,2
+17,Chen Wen,50,Maintain Independence,1
+18,Deepa Anand,18,Feeling Healthy,1
+19,Nur binti Rahman,41,Manage Stress,2
+20,Tan Ming,58,Manage Stress,3
+21,Vijay Singh,26,Manage Stress,2
+22,Ng Jia,25,Manage Stress,3
+23,Toh Wei,18,Feeling Healthy,3
+24,Azhar bin Rosli,59,Manage Stress,1
+25,Chong Wei Ling,27,Maintain Independence,3
+26,Halim bin Zaid,64,Feeling Healthy,2
+27,Julian Fernandez,27,Maintain Independence,2
+28,Fatin binti Hakim,21,Feeling Healthy,3
+29,Amit Rao,46,Feeling Healthy,2
+30,Karthik Subramaniam,47,Manage Stress,2
+31,Aishwarya Reddy,22,Manage Stress,2
+32,Rahman bin Isa,47,Maintain Independence,3
+33,Ho Mei,38,Feeling Healthy,2
+34,Tan Ming,44,Maintain Independence,2
+35,Chen Jia,56,Feeling Healthy,2
+36,Gan Wei Ling,62,Maintain Independence,3
+37,Chang Ling,61,Manage Stress,3
+38,Tan Ah Kow,28,Feeling Healthy,3
+39,Lim Mei Ling,63,Manage Stress,3
+40,Sandra Jones,50,Manage Stress,3
+41,Lee Min Ho,38,Maintain Independence,3
+42,Chen Wei,49,Feeling Healthy,3
+43,Rebecca Pereira,42,Manage Stress,1
+44,Sangeeta Pillai,64,Manage Stress,1
+45,Kumar Raj,57,Feeling Healthy,3
+46,Siti binti Ahmad,38,Manage Stress,3
+47,Meena Pillai,56,Maintain Independence,3
+48,Chong Wei Ling,21,Maintain Independence,1
+49,Rekha Nair,18,Manage Stress,2
+50,Zhang Wei,33,Maintain Independence,1
+51,Arjun Rao,58,Maintain Independence,3
+52,Yeoh Mei,49,Manage Stress,2
+53,Brian Tan,49,Manage Stress,3
+54,Aisyah binti Hamid,49,Feeling Healthy,2
+55,Liu Li,26,Maintain Independence,1
+56,Shanti Devi,42,Maintain Independence,2
+57,Zhang Wei,48,Manage Stress,3
+58,Deborah Matthews,65,Maintain Independence,1
+59,Lakshmi Devi,56,Manage Stress,3
+60,Daniel Fernandez,42,Feeling Healthy,3
+61,Ahmad bin Salim,47,Maintain Independence,1
+62,Samantha Jones,22,Maintain Independence,3
+63,Ng Jia,46,Maintain Independence,2
+64,Lee Min Ho,31,Manage Stress,2
+65,Ho Mei,24,Maintain Independence,3
+66,Linda Lee,20,Manage Stress,2
+67,Lin Wei,63,Feeling Healthy,3
+68,Michelle Smith,50,Maintain Independence,1
+69,Goh Wen,27,Manage Stress,1
+70,Wang Fang,59,Maintain Independence,3
+71,Chen Jia,44,Feeling Healthy,2
+72,Priya Rajan,23,Feeling Healthy,3
+73,Amirah binti Rahim,19,Maintain Independence,1
+74,Andrew Fernandez,37,Maintain Independence,2
+75,Christopher de Souza,18,Maintain Independence,1
+76,Lim Mei Ling,64,Feeling Healthy,3
+77,Rachel Lee,38,Maintain Independence,2
+78,Nicholas Fernandez,49,Manage Stress,2
+79,Lee Siew,41,Feeling Healthy,2
+80,Nadia binti Hassan,47,Maintain Independence,2
+81,Rashid bin Kadir,36,Maintain Independence,3
+82,Siti binti Zainal,65,Maintain Independence,1
+83,Michael Smith,41,Manage Stress,3
+84,Robert Smith,23,Manage Stress,1
+85,Melissa Pereira,49,Feeling Healthy,3
+86,Rahul Sharma,20,Feeling Healthy,3
+87,Tan Ah Kow,44,Maintain Independence,2
+88,Wang Fang,47,Maintain Independence,2
+89,Vivek Iyer,38,Manage Stress,2
+90,Gan Wei Ling,36,Manage Stress,1
+91,Syafiqah binti Ismail,20,Feeling Healthy,2
+92,Aziz bin Osman,38,Manage Stress,3
+93,Toh Chia Yi,54,Feeling Healthy,3
+94,Chen Wei,64,Feeling Healthy,2
+95,Hafiz bin Ali,44,Manage Stress,3
+96,Chang Ling,55,Maintain Independence,2
+97,Ravi Shankar,54,Feeling Healthy,1
+98,Toh Chia Yi,46,Feeling Healthy,1
+99,Ananda Krishna,52,Feeling Healthy,1
