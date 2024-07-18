@@ -4,7 +4,8 @@ This repo shows the usage of an emsemble model (Gradient Boosting) for use in a 
 
 ## Setup
 ### Install mtgbm
-1. `git clone https://github.com/antmachineintelligence/mtgbmcode.git`
+1. `brew install cmake` if you have not done so
+2. `git clone https://github.com/antmachineintelligence/mtgbmcode.git`
 2. Since libomp is required for mtgbm to run. It's recommended to run the following commands to install it on Mac:
 ``` bash
 wget https://raw.githubusercontent.com/Homebrew/homebrew-core/fb8323f2b170bd4ae97e1bac9bf3e2983af3fdb0/Formula/libomp.rb
@@ -12,10 +13,12 @@ brew unlink libomp
 brew install libomp.rb
 ```
 
+### Install lightgbmmt
+1. `cd mtgbmcode/python-package`
+2. `python setup.py install`
+
 ### Install other packages
 Run `pip install -r requirements.txt`
-
-
 
 ## Data Generation
 To generate data, run `DataGeneration.ipynb` (or use the commited file in data/).
